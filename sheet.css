@@ -1,6 +1,7 @@
 h1 {
-    font-family: 'Tangerine', cursive;
-    font-size: 50px;
+    display: block;
+    font-family: 'Tangerine', cursive !important;
+    font-size: 70px;
 }
 
 h2 {
@@ -11,19 +12,26 @@ h2 {
 
 h3 {
     font-family: 'Lato', sans-serif;
-    font-size: 25px;
+    font-size: 40px;
     font-weight: 400;
+    margin-bottom:40px;
 }
 
 h5 {
     display: block;
     font-family: 'Tangerine', cursive;
-    font-size: 50px;
+    font-size: 70px;
     color:#FFFFFF;
     text-align: center;
     font-weight: normal;
-    margin-top: 40px;
-    margin-bottom:auto;
+    margin-bottom: auto;
+    margin-top: 180px; 
+    padding-top: 30px;
+}
+
+li.nav-item
+{
+    text-align: right;
 }
 
 p {
@@ -37,6 +45,11 @@ li{
 }
 footer{
     background-color: #5A7D81;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    color: white;
+    text-align: center;
 }
 
 button {
@@ -48,14 +61,6 @@ button {
     text-align: center;
     font-family: 'Lato', sans-serif;
     font-size:20px;
-}
-
-button.arrow{
-        cursor: pointer;
-        width: 120px;
-        height: 120px;
-        border-color: #000000;
-        border-radius: 60px;
 }
 
 a.button {
@@ -89,4 +94,105 @@ img{
     border: 1px solid silver;
     background: white; 
     padding: 4px;
+}
+
+.jumbotron
+{
+    width:100%
+    margin-bottom:auto;
+    text-align: center;
+}
+
+.carousel
+{
+    display: inline-block;
+    text-align: center;
+    width:700px !important;
+    height:500px;
+}
+
+.nav
+{
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+.nav-link
+{
+    float: right;
+    text-align: right;
+    display: block;
+    margin-top: 20px; 
+    margin-left: 50px;
+    margin-right: 50px; 
+    padding: 0;
+}
+
+.nav-ml-auto{
+    margin-left: auto !important;
+}
+
+.card-title{
+    display: block;
+    font-family: 'Tangerine', cursive;
+    font-size:80px;
+    color: black;
+    text-align: center;
+    font-weight: normal;
+    margin-top: 60px;
+    margin-bottom: auto;
+}
+
+footer{
+    width: 100% !important;
+    margin-top: 150px;
+}
+
+.lead{
+    font-size: 30px;
+}
+
+.center-block{
+    width: 50%;
+    margin: 0 auto;
+    margin-top: 130px;
+    margin-bottom: 100px;
+}
+
+.col-container {
+    display: table;
+    width: 100%;
+    margin-top: 110px;
+}
+
+.col {
+    
+    width:50%;
+    display: table-cell;
+    margin:auto;
+    flex: 1;
+    padding:16px;
+    text-align: center;
+}
+
+.nav-footer
+{
+    display: inline-block;
+    text-align: center !important;
+    margin-top: 20px; 
+    margin-left: 50px;
+    margin-right: 50px; 
+    margin-bottom: 50; 
+    padding: 0;
+}
+
+.nav-link-footer
+{
+    display: block;
+    color:white !important;
+    margin-top: 20px; 
+    margin-left: 50px;
+    margin-right: 50px; 
+    padding: 0;
 }
