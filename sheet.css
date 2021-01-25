@@ -1,3 +1,10 @@
+.card-header {
+    padding: .9rem 1rem !important;
+    margin-bottom: 0;
+    background-color: #5A7D81 !important;
+    border-bottom: #5A7D81 !important;
+}
+
 h1 {
     display: block;
     font-family: 'Tangerine', cursive !important;
@@ -244,3 +251,4 @@ footer{
     margin-right: 50px; 
     padding: 0;
 }
+
