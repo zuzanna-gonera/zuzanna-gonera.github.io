@@ -6,12 +6,23 @@
     <meta name="author" content="Zuzanna Gonera">
     <meta name="keywords" content="Portfolio, Zuzanna, Gonera, Życiorys">
     <meta name="description" content="Portfolio wykwalifikowanej testerki oprogramowania.">
-    <link href="sheet.css" rel="stylesheet">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/css/bootstrap.min.css">
+    <link href="sheet.css" rel="stylesheet">
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" ></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/js/bootstrap.min.js"></script>
+    <!-- Hotjar Tracking Code for https://zuzanna-gonera.github.io/index.html -->
+<script>
+    (function(h,o,t,j,a,r){
+        h.hj=h.hj||function(){(h.hj.q=h.hj.q||[]).push(arguments)};
+        h._hjSettings={hjid:2204274,hjsv:6};
+        a=o.getElementsByTagName('head')[0];
+        r=o.createElement('script');r.async=1;
+        r.src=t+h._hjSettings.hjid+j+h._hjSettings.hjsv;
+        a.appendChild(r);
+    })(window,document,'https://static.hotjar.com/c/hotjar-','.js?sv=');
+</script>
 </head>
-
+    
 <body>
     <header>
         <section>
@@ -37,10 +48,10 @@
     <section>
         <div class="col-container">
         <div class="col">
-        <img src="img/profile_photo.jpg" width="510" height="510">
-        </div>
+        <img src="img/profile_photo.jpg" width="510" height="510" margin-top: -36px;>
+            </div>
         <div class="jumbotron col" style="position: center;">
-          <h3>O mnie</h3>
+          <h3 style="margin-top: -36px;">O mnie</h3>
           <p class="lead">Absolwentka Wydziału Informatyki </br>i Komunikacji Uniwersytetu Ekonomicznego </br>w Katowicach. Akredytowana testerka ISTQB, </br>trenerka z zakresu testowania i zapewnienia </br>jakości oprogramowania. Koordynatorka </br>projektów testowych w całym cyklu życia </br>oprogramowania.</p>
           <hr class="my-4">
           <a class="btn btn-outline-dark" href="zyciorys.htlm" role="button" style="font-size:28px">mój życiorys</a>
@@ -89,17 +100,24 @@
         </div>
     </section>
 
-  <div class="pole-form">
+
+<div class="pole-form">
     <form class="formularz" action="mailto:zuzanna.gonera@edu.uekat.pl" method="post">
-        <label>Podaj imię: <input type="text" name="imie"/></label>
-        <label>Podaj swój zawód: <input type="text" name="zawod" /></label>
-        <label>Jak tu trafiłeś/trafiłaś? </label></br>
-        <input type="radio" name="radio" value="LinkedIn"/><label> LinkedIn</label></br>
-        <input type="radio" name="radio" value="Facebook"/><label> Facebook</label></br>
-        <input type="radio" name="radio" value="Polecenie"/><label> Polecenie</label></br>
+        <label>Podaj imię: <input type="text" name="imie" placeholder="Wprowadź imię"/></label>
+        <label>Podaj swój zawód: <input type="text" name="zawod" placeholder="Wprowadź zawód"/></label>
+        <label>Jak tu trafiłeś/trafiłaś?</label>
+        </br>
+         <input type="radio" id="linkedin" name="przekierowanie" value="linkedin">
+          <label for="linekdin">LinkedIn </label><br>
+          <input type="radio" id="facebook" name="przekierowanie" value="facebook">
+          <label for="facebook">Facebook</label><br>
+          <input type="radio" id="polecenie" name="przekierowanie" value="polecenie">
+          <label for="polecenie">Z polecenia</label>
+        </br>
         <input type="submit" value="Wyślij"/>
     </form>
-    </div>
+</div>
+
     <footer>
         <nav>
         <h5>Zuzanna Gonera</h5>

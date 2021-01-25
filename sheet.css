@@ -1,6 +1,6 @@
 h1 {
     display: block;
-    font-family: 'Tangerine', cursive;
+    font-family: 'Tangerine', cursive !important;
     font-size: 70px;
 }
 
@@ -52,17 +52,36 @@ h5 {
     margin-bottom: 20px;
     margin-top: 10px;
 }
-.logo
+
+input[type=submit]
 {
-    display: block;
-    font-family: 'Tangerine', cursive;
-    font-size: 70px;
-    margin-top: 10px; 
-    margin-left: 25px;
+    width: 200px;
+    background-color: #5A7D81;
+    color: #fff;
+    border: 2px solid #ddd;
+    font-size: 20px;
+    padding: 10px;
+    box-sizing:border-box;
+    margin-bottom: 20px;
+    margin-top: 10px;
+    cursor: pointer;
+    letter-spacing: 2px;
 }
-li.nav-item
+
+input[type=submit]:hover
 {
-    text-align: right;
+    background-color: cadetblue;
+}
+
+::placeholder
+{
+    font-size: 14px;
+}
+
+label
+{
+    font-size: 16px;
+    font-family: sans-serif;
 }
 
 p {
