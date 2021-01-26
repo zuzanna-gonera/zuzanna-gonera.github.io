@@ -1,4 +1,5 @@
 <!doctype html>
+
 <html lang="pl">
 <head>
     <meta charset="utf-8">
@@ -25,6 +26,7 @@
 </head>
     
 <body>
+    <div class="flexbox-containter">
     <header>
         <section>
             <nav class="nav">
@@ -38,54 +40,73 @@
             </nav>
         </section>
     </header>
+    </div>
     
-    <div class="card text-center">
-    <div class="card-header" style="padding: .9rem 1rem !important; margin-bottom: 0; background-color: #5A7D81 !important; border-bottom: #5A7D81 !important;">
-    <ul class="nav nav-tabs card-header-tabs">
-        <li></li>
-    </ul>
+    <div class="flexbox-containter">
         
-  </div>
-</div>
+        <div class="card text-center">
+            <div class="card-header" style="padding: .9rem 1rem !important; margin-bottom: 0; background-color: #5A7D81 !important; border-bottom: #5A7D81 !important;">
+                <ul class="nav nav-tabs card-header-tabs">
+                <li></li>
+                </ul>
+            </div>
+        </div>
+    </div>
     
-        <div class="card-body">
-        <div class="col col-first col-md-12">
+<div class="flexbox-containter">
+   <div class="card-body">
+        <div class="col col-first col-last col-md-12">
          <h3 style= "color:#5A7D81;"><u>Kontakt</u></h3>
-            <div class="content">
+            <div class="row row-1 row-first row-last"  style="margin-left: 50px;margin-top: 100px;">
                 <div class="col col-first col-md-6">
-                            <p>
-                                <img src="img/phone_icon.jpg" width="150" height="150">
-                                </br><b>Numer kontaktowy</b>
-                                </br>tel. 730010380
-                            </p>
-                                 
-                            <p>
-                                <img src="img/mail_icon.jpg" width="150" height="150">
-                                </br><b>Adres e-mail</b>
-                                </br>z.gonera@poczta.pl
-                            </p>
+                    <div class="flexbox-containter-1" style="justify-content: space-around;">
+                    <div class="card" style="width: 15rem;">
+                          <img class="card-img-top" src="img/phone_icon.jpg" >
+                          <div class="card-body">
+                            <h6 class="card-title">Numer kontaktowy</h6>
+                            <p class="card-text">tel. 730010380</p>
+                          </div>
+                        </div>
+                    </div>
                 </div>
-    
-                <div class="col col-first col-md-6" style="text-align: right;">
-                        <p>
-                            <img src="img/linkedin_icon.jpg" width="150" height="150">
-                            </br><b>LinkedIn</b>
-                        </br><a href="https://pl.linkedin.com/" target="_blank">Sprawdź mój profil</a>
-                        </p>
-                        
-                        <p>
-                            <img src="img/facebook_icon.jpg" width="150" height="150">
-                            </br><b>Facebook</b>
-                        </br><a href="https://www.facebook.com/" target="_blank">Sprawdź mój profil</a>
-                        </p>
+                        <div class="col col-first col-md-6">
+                            <div class="card" style="width: 15rem;">
+                              <img class="card-img-top" src="img/mail_icon.jpg">
+                              <div class="card-body">
+                                  <h6 class="card-title">Adres </br>e-mail</h6>
+                                <p class="card-text">z.gonera@poczta.pl</p>
+                              </div>
+                            </div>
+                        </div>
+
+
+                <div class="col col-first col-md-6">
+                        <div class="card" style="width: 15rem;">
+                          <img class="card-img-top" src="img/linkedin_icon.jpg">
+                          <div class="card-body">
+                            <h6 class="card-title">LinkedIn</h6>
+                              <a href="https://pl.linkedin.com/" class="btn btn-primary">Sprawdź mój profil</a>
+                          </div>
+                        </div>
                 </div>
+                    <div class="col col-first col-md-6">
+                            <div class="card" style="width: 15rem;">
+                              <img class="card-img-top" src="img/facebook_icon.jpg">
+                              <div class="card-body">
+                                <h6 class="card-title">Facebook</h6>
+                                <a href="https://www.facebook.com/" class="btn btn-primary">Sprawdź mój profil</a>
+                              </div>
+                            </div>
+                        </div>
+                </div>
+            </div>
         </div>
 </div>
-</div>
-
+    
+<div class="flexbox-containter">
     <footer>
         <nav>
-        <h5 style="margin-top: -100px;">Zuzanna Gonera</h5>
+        <h5>Zuzanna Gonera</h5>
             <nav class="nav-footer">
             <ul class>
                 <a class="nav-link-footer" style="float:right" href="https://www.facebook.com/" target="_blank">facebook</a>
@@ -97,6 +118,45 @@
         </ul>
     </nav>
     </footer>
+</div>
     
 </body>
 </html>
+
+<style>
+.card-title {
+    display: inline-block;
+    font-family: 'Lato';
+    font-size: 30px;
+    color: black;
+    text-align: center;
+    font-weight: normal;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+    
+.btn{
+    margin-top: 20px; 
+    background-color: #5A7D81;
+    color: white;
+    border-color: #5A7D81;
+    text-decoration-color: white;
+}
+.card-body
+    {
+        text-align: center;
+        padding: inherit;
+    }
+    
+a:visited {
+    font-family: 'Lato', sans-serif;
+    font-size: 20px;
+    color: #212529;
+    opacity: 0,7;
+}
+    .btn-primary {
+    color: #fff;
+    background-color: #5A7D81 !important;
+    border-color: #5A7D81 !important;
+}
+</style>
