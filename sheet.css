@@ -1,47 +1,6 @@
-div {
-  display flex;  
-  flex-wrap: wrap !important;
-}
-
-.col col-first col-md-6{
-    display flex;
-    align-items: center;
-}
-.col col-first col-md-12{
-    display flex;
-    align-items: center;
-}
-.flexbox-containter
-{
-    display flex;
-    align-items: center;
-    
-}
-.flexbox-containter div
-{
-    
-    margin: 12px;
-}
-.flexbox-containter-1 div
-{
-    margin: 3px;
-}
-.flexbox-containter-1{
-    display flex;
-    margin 3px;
-    padding: 3px;
-    align-items: center;
-}
-.card-header {
-    padding: .9rem 1rem !important;
-    margin-bottom: 0;
-    background-color: #5A7D81 !important;
-    border-bottom: #5A7D81 !important;
-}
-
 h1 {
     display: block;
-    font-family: 'Tangerine', cursive !important;
+    font-family: 'Tangerine', cursive;
     font-size: 70px;
 }
 
@@ -70,21 +29,6 @@ h5 {
     padding-top: 30px;
 }
 
-h6.card-title {
-    font-family: 'Lato', sans-serif !important;
-    font-size: 40px !important;
-    margin-top: 20px !important;
-}
-.card-title {
-    display: block;
-    font-family: 'Lato';
-    font-size: 30px;
-    color: black;
-    text-align: center;
-    font-weight: normal;
-    margin-top: 30px;
-    margin-bottom: auto;
-}
 .pole-form{
     background-color: #fff;
     width: 300px;
@@ -108,36 +52,17 @@ h6.card-title {
     margin-bottom: 20px;
     margin-top: 10px;
 }
-
-input[type=submit]
+.logo
 {
-    width: 200px;
-    background-color: #5A7D81;
-    color: #fff;
-    border: 2px solid #ddd;
-    font-size: 20px;
-    padding: 10px;
-    box-sizing:border-box;
-    margin-bottom: 20px;
-    margin-top: 10px;
-    cursor: pointer;
-    letter-spacing: 2px;
+    display: block;
+    font-family: 'Tangerine', cursive;
+    font-size: 70px;
+    margin-top: 10px; 
+    margin-left: 25px;
 }
-
-input[type=submit]:hover
+li.nav-item
 {
-    background-color: cadetblue;
-}
-
-::placeholder
-{
-    font-size: 14px;
-}
-
-label
-{
-    font-size: 16px;
-    font-family: sans-serif;
+    text-align: right;
 }
 
 p {
@@ -300,4 +225,3 @@ footer{
     margin-right: 50px; 
     padding: 0;
 }
-
