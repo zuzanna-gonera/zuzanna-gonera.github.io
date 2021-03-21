@@ -91,3 +91,25 @@ body {
     margin-top: 7rem;
   }
 }
+
+/* buttons
+----------- */
+
+button {
+    background: #017A78;
+    color: #017A78;
+    border-color: #017A78;
+}
+
+.btn-primary {
+    color: #FFF;
+    background-color: rgb(0, 0, 0, 0.25);
+    border-color: #FFF;
+}
+
+.btn-primary:hover {
+    color: #FFF;
+    background-color: rgb(0, 0, 0, 0.40);
+    border-color: #FFF;
+    
+}
