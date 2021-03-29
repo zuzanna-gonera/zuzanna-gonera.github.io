@@ -1,9 +1,9 @@
 <?php
         $ilosc = $_POST['ilosc'];
-        $wartosc = $_POST['wartosc'];
-        $suma = $ilosc * $wartosc;
+        $cena = $_POST['cena'];
+        $suma = $ilosc * $cena;
 
-        echo "Ile produktu: $ilosc <br/>";
-        echo "Jaka wartosc: $wartosc <br/><br/>";
-        echo "Suma zamówienia: $suma";            
+        echo "Podaj ilość produktów: $ilosc <br/>";
+        echo "Podaj cenę: $cena <br/><br/>";
+        echo "Wartość zamówienia: $suma";            
 ?>
